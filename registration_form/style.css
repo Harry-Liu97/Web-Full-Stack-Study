@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #384047
+}
+
+form {
+    max-width: 580px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+}
+
+h1 {
+    margin: 0 0 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 30px;
+}
+
+.textInput, select {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px 10px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 0 4px 8px 0;
+}
+
+button {
+    padding: 10px;
+    color: #fff;
+    background-color: #4bc970;
+    font-size: 18px;
+    font-style: normal;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    margin-bottom: 10px;
+}
+
+legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+legend::before {
+    content: "";
+    background-color: #007a5a;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 580px) {
+    form {
+        width: 300px;
+    }
+}
